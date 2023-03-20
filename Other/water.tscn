@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpy164w4u46is"]
+
+[ext_resource type="Material" uid="uid://jv2gl4ok5jkf" path="res://Other/water.tres" id="1_guila"]
+[ext_resource type="Texture2D" uid="uid://wt2xtfsex5dx" path="res://icon.svg" id="1_xuxlg"]
+
+[node name="Water" type="Node2D"]
+
+[node name="texture" type="Sprite2D" parent="."]
+material = ExtResource("1_guila")
+position = Vector2(318, 53)
+scale = Vector2(0.585938, 0.609375)
+texture = ExtResource("1_xuxlg")
+
+[node name="Icon" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(410, 27)
+texture = ExtResource("1_xuxlg")
